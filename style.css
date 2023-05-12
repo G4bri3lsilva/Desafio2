@@ -1,0 +1,57 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Foldit:wght@200;300;400;500;600;900&family=Kavoon&display=swap');
+
+
+
+
+body{
+  font-family: 'Kavoon', cursive;
+
+}
+
+*{
+   margin: 0%;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.wow{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 30px;
+
+}
+.wow button{
+width: 354px;
+height: 77px;
+border-radius: 50px;
+background-color: #D48B5C;
+font-family: 'Kavoon', cursive;
+font-size: 40px;
+color: aliceblue;
+cursor: pointer;
+
+
+
+}
+.wow h1{
+width: 530px;
+height: 205px;
+text-align: center;
+line-height: 64px;
+
+
+} 
+.wow button:hover{
+background-color: #d46b2a;
+
+}
